@@ -11,6 +11,7 @@ if os.getenv("USE_FLASH_ATTENTION", "").lower() == "false":
 
 HAS_FLASH_ATTN = False
 HAS_FLASH_ATTN_V2 = False
+ROCM_HAS_FA_VARLEN = False
 
 is_hpu = is_hpu()
 is_rocm = is_rocm()
